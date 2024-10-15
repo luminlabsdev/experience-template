@@ -1,0 +1,26 @@
+{
+	"emitLegacyScripts": false,
+	"name": "experience",
+	"tree": {
+		"$className": "DataModel",
+        "ServerStorage": {
+            "ServerPackages": {
+                "$path": "ServerPackages"
+            },
+            "Server": {
+                "$path": "src/server"
+            }
+        },
+		"ReplicatedStorage": {
+			"Packages": {
+				"$path": "Packages"
+			},
+			"Client": {
+                "$path": "src/client"
+            },
+            "Shared": {
+                "$path": "src/shared"
+            }
+		}
+	}
+}
